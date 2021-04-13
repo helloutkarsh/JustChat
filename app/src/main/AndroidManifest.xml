@@ -13,7 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JustChat"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Activities.ChatActivity"></activity>
+        <activity android:name=".Activities.ChatActivity"
+            android:theme="@style/Theme.JustChatNAB">
+        </activity>
         <activity android:name=".Models.UserSetup" />
         <activity
             android:name=".Activities.otpActivationActivity"
@@ -32,6 +34,18 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/send" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/green" />
+
     </application>
 <uses-sdk tools:overrideLibrary="omari.hamza.storyview"/>
 

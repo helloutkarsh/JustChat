@@ -2,7 +2,7 @@ package com.santara.justchat.Models;
 
 public class Message {
 
-    private String messageId , message, senderId;
+    private String messageId , message, senderId, imageUrl;
 
     private long timestamp;
 
@@ -49,4 +49,11 @@ public class Message {
         this.timestamp = timestamp;
     }
 
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 }

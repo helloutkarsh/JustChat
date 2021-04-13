@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.santara.justchat.Models.Message;
 import com.santara.justchat.R;
@@ -55,12 +56,28 @@ public class MessageAdapter extends RecyclerView.Adapter {
             Message message = messages.get(position);
         if(holder.getClass() == SentViewHolder.class){
             SentViewHolder viewHolder = (SentViewHolder)holder;
+            if(message.getMessage().equals("Image")){
+                viewHolder.binding.image.setVisibility(View.VISIBLE);
+                viewHolder.binding.sentMsg.setVisibility(View.GONE);
+                Glide.with(context).load(message.getImageUrl())
+                        .placeholder(R.drawable.send_placeholder)
+                        .into(viewHolder.binding.image);
+
+            }
             viewHolder.binding.sentMsg.setText(message.getMessage());
         }
 
-        else{
-            ReceiverViewHolder viewHolder = (ReceiverViewHolder)holder;
-            viewHolder.binding.receiveMsg.setText(message.getMessage());
+        else {
+            ReceiverViewHolder viewHolder = (ReceiverViewHolder) holder;
+
+            if (message.getMessage().equals("Image")) {
+                viewHolder.binding.image.setVisibility(View.VISIBLE);
+                viewHolder.binding.receiveMsg.setVisibility(View.GONE);
+                Glide.with(context).load(message.getImageUrl())
+                        .placeholder(R.drawable.receive_placeholder)
+                        .into(viewHolder.binding.image);
+                viewHolder.binding.receiveMsg.setText(message.getMessage());
+            }
         }
 
     }
