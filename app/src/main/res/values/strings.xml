@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JustChat</string>
+    <string name="otp_send_info">JustChat will use this number for OTP verification</string>
+    <string name="charges_may_apply">SMS charges may apply</string>
+    <string name="vision">An Initiative for Self-Reliant India</string>
+    <string name="enterOtp">Enter the 6 digit code</string>
+    <string name="addUserDP">Add Profile Image</string>
+    <string name="just">Just</string>
+    <string name="chat">Chat</string>
+
+</resources>
