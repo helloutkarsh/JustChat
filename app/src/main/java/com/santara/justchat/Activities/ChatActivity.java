@@ -69,7 +69,7 @@ public class ChatActivity extends AppCompatActivity {
         dialog.setCancelable(false);
 
         messages = new ArrayList<>();
-        messageAdapter = new MessageAdapter(this, messages);
+        messageAdapter = new MessageAdapter(this, messages, senderRoom, receiverRoom);
         binding.recyclerChatView.setLayoutManager(new LinearLayoutManager(this));
         binding.recyclerChatView.setAdapter(messageAdapter);
 
@@ -144,6 +144,7 @@ public class ChatActivity extends AppCompatActivity {
 
                 Message message = new Message(messageTxt,senderUid ,date.getTime());
                 binding.messageToBe.setText("");
+
 
                 String randomKey = database.getReference().push().getKey();
 

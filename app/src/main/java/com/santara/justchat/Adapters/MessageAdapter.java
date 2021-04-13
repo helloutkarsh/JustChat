@@ -20,11 +20,14 @@ import java.util.ArrayList;
 public class MessageAdapter extends RecyclerView.Adapter {
     Context context;
     ArrayList<Message> messages;
+    String senderRoom, receiverRoom;
     final int ITEM_SENT = 1;
     final int ITEM_RECEIVE = 2;
-    public MessageAdapter(Context context, ArrayList<Message> messages){
+    public MessageAdapter(Context context, ArrayList<Message> messages , String senderRoom, String receiverRoom){
         this.context = context;
         this.messages = messages;
+        this.senderRoom = senderRoom;
+        this.receiverRoom = receiverRoom;
     }
 
     @NonNull
@@ -60,7 +63,7 @@ public class MessageAdapter extends RecyclerView.Adapter {
                 viewHolder.binding.image.setVisibility(View.VISIBLE);
                 viewHolder.binding.sentMsg.setVisibility(View.GONE);
                 Glide.with(context).load(message.getImageUrl())
-                        .placeholder(R.drawable.send_placeholder)
+                        .placeholder(R.drawable.placeholder_image)
                         .into(viewHolder.binding.image);
 
             }
@@ -74,10 +77,10 @@ public class MessageAdapter extends RecyclerView.Adapter {
                 viewHolder.binding.image.setVisibility(View.VISIBLE);
                 viewHolder.binding.receiveMsg.setVisibility(View.GONE);
                 Glide.with(context).load(message.getImageUrl())
-                        .placeholder(R.drawable.receive_placeholder)
+                        .placeholder(R.drawable.placeholder_image)
                         .into(viewHolder.binding.image);
-                viewHolder.binding.receiveMsg.setText(message.getMessage());
             }
+            viewHolder.binding.receiveMsg.setText(message.getMessage());
         }
 
     }

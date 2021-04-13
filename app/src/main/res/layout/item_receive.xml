@@ -20,6 +20,7 @@
             android:layout_height="130dp"
             android:layout_margin="8dp"
             android:scaleType="centerCrop"
+            android:visibility="gone"
             tools:srcCompat="@tools:sample/avatars"
             tools:visibility="gone" />
 
@@ -30,7 +31,6 @@
             android:layout_marginStart="4dp"
             android:layout_marginLeft="4dp"
             android:padding="10dp"
-            android:text="TextView"
             android:textColor="#FFFFFF"
             android:textSize="18dp" />
     </LinearLayout>
