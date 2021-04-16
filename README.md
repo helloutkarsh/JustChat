@@ -4,7 +4,7 @@ Basic Texting Application
 
 ## Login Screen
 
-![Screenshot_1618530553](https://user-images.githubusercontent.com/35009245/115061033-3dc6f000-9f06-11eb-9252-d32f3ef6db51.png)
+![Screenshot_1618530553](https://user-images.githubusercontent.com/35009245/115061033-3dc6f000-9f06-11eb-9252-d32f3ef6db51.png = 250x250)
 
 ## OTP Verification
 
