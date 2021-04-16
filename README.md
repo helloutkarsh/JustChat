@@ -5,37 +5,41 @@ Basic Texting Application
 ## Login Screen
 <img src = "https://user-images.githubusercontent.com/35009245/115061033-3dc6f000-9f06-11eb-9252-d32f3ef6db51.png" width = "50%">
 
-![Screenshot_1618530553](https://user-images.githubusercontent.com/35009245/115061033-3dc6f000-9f06-11eb-9252-d32f3ef6db51.png )
-
 ## OTP Verification
 
-![Screenshot_1618530576](https://user-images.githubusercontent.com/35009245/115061693-1f152900-9f07-11eb-82db-aac46410fb8b.jpg)
-
+<img src = "(https://user-images.githubusercontent.com/35009245/115061693-1f152900-9f07-11eb-82db-aac46410fb8b.jpg" width = "50%">
 ## Adding User Profile Picture 
 
-![Screenshot_1618530594](https://user-images.githubusercontent.com/35009245/115061748-2e947200-9f07-11eb-9592-c8c6da8cc00d.png)
-![Screenshot_1618530597](https://user-images.githubusercontent.com/35009245/115061761-30f6cc00-9f07-11eb-83cc-21cb98c43baf.png)
+
+<img src = "https://user-images.githubusercontent.com/35009245/115061748-2e947200-9f07-11eb-9592-c8c6da8cc00d.png" width = "50%">
+<img src = "https://user-images.githubusercontent.com/35009245/115061761-30f6cc00-9f07-11eb-83cc-21cb98c43baf.png" width = "50%">
+
+
 
 
 ## Chat MainActivity 
 
-![Screenshot_1618529280](https://user-images.githubusercontent.com/35009245/115061852-4c61d700-9f07-11eb-8216-76e7a04a4ec3.png)
+<img src = "https://user-images.githubusercontent.com/35009245/115061852-4c61d700-9f07-11eb-8216-76e7a04a4ec3.png" width = "50%">
+
 
 
 ## Chat User Interface 
+<img src = "https://user-images.githubusercontent.com/35009245/115061932-63082e00-9f07-11eb-8df1-860688963e9f.png" width = "50%">
 
-![Screenshot_1618529495](https://user-images.githubusercontent.com/35009245/115061932-63082e00-9f07-11eb-8df1-860688963e9f.png)
 
 
 ## User Status 
 
-![Screenshot_1618529906](https://user-images.githubusercontent.com/35009245/115062006-79ae8500-9f07-11eb-9556-60b500622d3d.png)
-![Screenshot_1618529909](https://user-images.githubusercontent.com/35009245/115062022-7e733900-9f07-11eb-9a4a-35ad526bf45d.png)
+<img src = "https://user-images.githubusercontent.com/35009245/115062006-79ae8500-9f07-11eb-9556-60b500622d3d.png " width = "50%">
+<img src = "https://user-images.githubusercontent.com/35009245/115062022-7e733900-9f07-11eb-9a4a-35ad526bf45d.png " width = "50%">
 
 
 ##  Demo User Chats 
-![photo_2021-04-16_23-09-05](https://user-images.githubusercontent.com/35009245/115063162-d65e6f80-9f08-11eb-9f46-a15d9d5aa51d.jpg)
-![photo_2021-04-16_23-09-08](https://user-images.githubusercontent.com/35009245/115063160-d52d4280-9f08-11eb-84a6-26ca12ff9b8a.jpg)
+
+<img src = "https://user-images.githubusercontent.com/35009245/115063162-d65e6f80-9f08-11eb-9f46-a15d9d5aa51d.jpg" width = "50%">
+<img src = "https://user-images.githubusercontent.com/35009245/115063160-d52d4280-9f08-11eb-84a6-26ca12ff9b8a.jpg" width = "50%">
+
+
 
 
 
