@@ -3,8 +3,9 @@ Basic Texting Application
 
 
 ## Login Screen
+<img src = "https://user-images.githubusercontent.com/35009245/115061033-3dc6f000-9f06-11eb-9252-d32f3ef6db51.png" width = "100">
 
-![Screenshot_1618530553](https://user-images.githubusercontent.com/35009245/115061033-3dc6f000-9f06-11eb-9252-d32f3ef6db51.png | width = 100)
+![Screenshot_1618530553](https://user-images.githubusercontent.com/35009245/115061033-3dc6f000-9f06-11eb-9252-d32f3ef6db51.png )
 
 ## OTP Verification
 
